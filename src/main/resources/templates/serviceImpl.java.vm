@@ -1,0 +1,22 @@
+package ${package.ServiceImpl}import org.springframework.stereotype.Service;
+
+;
+${package.Entity}
+        .${entity};
+    ${package.Mapper}
+        .${table.mapperName};
+    ${package.Service}
+        .${table.serviceName};
+
+/**
+ * <p>
+ * ${table.comment} 服务实现类
+ * </p>
+ *
+ * @author ${author}
+ * @date ${date}
+ */
+@Service
+public class ${table.serviceImplName} extends ServiceImpl<${table.mapperName}, ${entity}> implements ${table.serviceName} {
+
+        }
